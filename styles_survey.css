@@ -1,0 +1,48 @@
+body {
+  
+}
+
+#survey-form {
+  border-radius: 10px;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  width: 1000px;
+  margin: auto;
+  
+}
+
+#contact {
+  text-align: left;
+}
+
+#copyright {
+  text-align: center;
+}
+
+#title {
+  
+}
+
+#title, #description {
+  text-align: center;
+}
+
+#name-label, #last-name-label {
+  display: inline;
+}
+
+#last-name-label {
+  margin-left: 50%;
+}
+
+#name-label, #last-name-label, #email-label, #number-label, #gender, #select, #suggestion {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+  
+#dropdown {
+  
+  }
+  
+  

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Krit's Survey Form</title>
+    <link rel="stylesheet" href="styles_survey.css">
+  </head>
+  <body>
+    <div id="head">
+      <h1 id="title">Krit's Survey Form</h1>
+      <p id="description">We would like your opinion to make our website better</p>
+    </div>
+    <div id="survey-form">
+      <div id="name-label">First name </div>
+      <div id="last-name-label">Last name </div>
+      </br>
+      <input type="text" id="name" placeholder="Enter your first name" required>
+      <input type="text" id="last-name" placeholder="Enter your last name" required>
+      <br />
+      <div id="gender">Gender
+        <label><input type="radio" value="male" name="sex"> Male</label>
+        <label><input type="radio" value="female" name="sex"> Female</label>
+        <label><input type="radio" value="other" name="sex"> Other</label>
+      </div>
+      <br />
+      <div id="email-label">Email <input type="email" id="email" placeholder="Enter your email" required></div>
+      <br />
+      <div id="number-label">Cell phone <input type="tel" id="number" placeholder="Enter your cell phone number" maxlength="10" minlength="10" required></div>
+      <br />
+      <div id="select">How did you find our website?
+        <select id="dropdown">
+          <option>Select</option>
+          <option>Friend</option>
+          <option>Advertise</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <br />
+      <div id="suggestion">Your suggestion about our website <textarea placeholder="Enter your suggestion to improve our website"></textarea></div>
+      <br />
+      <div><input type="checkbox" value="policy"> Do you agree with our policy?</div>
+      <br />
+      <div><input type="checkbox" value="advertise"> Would you like us to sent advertise about our website?</div>
+      <br />
+      <div><input type="submit" id="submit"></div>
+      </div>
+      <footer>
+        <div id="contact">
+          <div>Contact</div>
+          <div>Email: Tanakrit.Promwungkwa@gmail.com</div>
+          <div>Phone: 099-139-0003</div>
+        </div>
+        <div id="copyright">
+          <div>Copyright by Tanakrit Promwungkwa</div>
+        </div>
+      </footer>
+  </body>
+</html>
