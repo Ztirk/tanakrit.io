@@ -64,11 +64,12 @@ li a:hover {
 
 .text-pic {
   display: flex;
-  margin: auto;
-  width: 65%;
+  justify-content: center;
   margin-top: 125px;
   margin-bottom: 125px;
   align-items: center;
+  flex-wrap: wrap;
+
 
 }
   
@@ -84,7 +85,7 @@ li a:hover {
   height: 300px;
   width: 300px;
   object-fit: cover;
-  margin-left: auto;
+  margin-left: 50px;
   
 }
 
@@ -137,6 +138,8 @@ h2 span {
   justify-content: space-around;
   align-items: center;
   padding: 100px 0px;
+  flex-wrap: wrap;
+  
 
 }
 
