@@ -286,3 +286,93 @@ h2 span {
 #quote {
   text-align: center;
 }
+
+/* mobile screen */
+
+@media (max-width: 600px) {
+  .fp-text {
+    font-size: small
+  }
+
+  #name {
+    font-size: 50px;
+  }
+
+  .first-page img {
+    border: 3px solid #C62828;
+    border-radius: 1000px;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    margin: auto;
+    
+  }
+
+  .text-pic {
+    margin-top: 125px;
+    margin-bottom: 125px;
+  
+  
+  }
+
+  #logo {
+    color: #FFEBEE;
+    float: left;
+    padding: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+    
+  
+  }
+
+  .nav li {
+    padding: 9px 0px 9px 0px;
+    background-color: #616161;
+    list-style: none;
+    font-family: sans-serif;
+    border-left: #111 solid 1px;
+    border-radius: 3px;
+    margin: 0;
+  
+  }
+
+  .nav a {
+    color: #FFEBEE;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 3px;
+    
+  
+  }
+
+  .second-page {  
+    background-color: #263238;
+    padding: 100px 0px;
+    
+  
+  }
+
+  #my-works {
+    margin: auto;
+    width:;
+    
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+    list-style: none;
+    padding: 10px;
+    background-color: #212121;
+    border: 1px solid #C62828;
+    border-radius: 5px;
+    width: 50%;
+    
+  }
+
+}
